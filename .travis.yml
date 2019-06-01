@@ -6,7 +6,7 @@ node_js:
   - "10"
 
 install:
-  - npm ci --unsafe-perm
+  - npm --unsafe-perm ci
 
 script:
   - npm run test
