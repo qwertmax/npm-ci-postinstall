@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "test": "uname -a",
     "postinstall": "./post.sh"
   }
 }
